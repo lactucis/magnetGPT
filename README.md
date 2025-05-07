@@ -20,10 +20,6 @@
     ```bash
     pip install torch transformers
     ```
-    또는 `requirements.txt` 파일이 제공된 경우 다음 명령어로 설치합니다:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### 2. 데이터 준비 (Data Preparation)
 
@@ -63,7 +59,8 @@
     ```bash
     python 3_train_model.py
     ```
-    **(참고: 학습 파라미터는 `3_train_model.py` 스크립트 내에서 필요에 따라 조정 가능합니다.)**
+    
+    학습 파라미터는 `3_train_model.py` 스크립트 내에서 필요에 따라 조정 가능합니다.
 
 ### 5. 맵 생성 (Generation)
 
@@ -88,7 +85,3 @@
     * 발행년도: 2023
     * DOI: [10.48550/arxiv.2302.05981](https://doi.org/10.48550/arxiv.2302.05981)
     * arXiv: [2302.05981](https://arxiv.org/abs/2302.05981)
-
-## 저자
-
-* 수정 중
